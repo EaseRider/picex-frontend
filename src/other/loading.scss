@@ -1,0 +1,13 @@
+.turningIcon {
+    animation: loader 2.25s infinite;
+  }
+  
+  @keyframes loader {
+    0% {
+      rotate: 0deg;
+    }
+    100% {
+      border-radius: 50%;
+      rotate: 360deg;
+    }
+  }
